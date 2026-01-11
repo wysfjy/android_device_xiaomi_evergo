@@ -1,6 +1,6 @@
 #
-# Copyright (C) 2025 The Android Open Source Project
-# Copyright (C) 2025 SebaUbuntu's TWRP device tree generator
+# Copyright (C) 2026 The Android Open Source Project
+# Copyright (C) 2026 SebaUbuntu's TWRP device tree generator
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -13,10 +13,10 @@ ALLOW_MISSING_DEPENDENCIES := true
 # A/B
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
-    vbmeta_system \
-    vbmeta_vendor \
     boot \
+    vbmeta_system \
     system \
+    vbmeta_vendor \
     product \
     system_ext \
     vendor
@@ -104,6 +104,8 @@ BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
 PLATFORM_SECURITY_PATCH := 2099-12-31
 VENDOR_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 14.1.0
+TW_EXCLUDE_TASK_PROFILES := true
+
 
 # TWRP Configuration
 TW_THEME := portrait_hdpi

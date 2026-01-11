@@ -1,6 +1,6 @@
 #
-# Copyright (C) 2025 The Android Open Source Project
-# Copyright (C) 2025 SebaUbuntu's TWRP device tree generator
+# Copyright (C) 2026 The Android Open Source Project
+# Copyright (C) 2026 SebaUbuntu's TWRP device tree generator
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -17,9 +17,6 @@ AB_OTA_POSTINSTALL_CONFIG += \
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl \
     android.hardware.boot@1.0-service
-
-#PRODUCT_PACKAGES += \
-#    bootctrl.mt6833
 
 PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     bootctrl.mt6833 \
