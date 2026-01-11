@@ -1,14 +1,13 @@
 #
-# Copyright (C) 2026 The Android Open Source Project
-# Copyright (C) 2026 SebaUbuntu's TWRP device tree generator
+# Copyright (C) 2023 The PixelExperience Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_evergo.mk
+    $(LOCAL_DIR)/aosp_everpal.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_evergo-ap2a-user \
-    omni_evergo-ap2a-userdebug \
-    omni_evergo-ap2a-eng
+    aosp_everpal-ap2a-user \
+    aosp_everpal-ap2a-userdebug \
+    aosp_everpal-ap2a-eng
